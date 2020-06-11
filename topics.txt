@@ -1,0 +1,11 @@
+
+
+run from windows CMD prompt(enable venv)
+run tests from modules, classes or even individual test methods
+    python -m unittest -h - shows all options
+    python -m unittest test_module.TestClass - run using class
+    python -m unittest test_module1 test_module2
+    python -m unittest test_module.TestClass.test_method - run only 1 method
+    python -m unittest - when executed without arguments Test Discovery
+        the test*.py modules inside the test package
+        -p : Pattern to match test files (test*.py default)
